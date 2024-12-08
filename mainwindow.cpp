@@ -80,7 +80,11 @@ void MainWindow::on_hintButton_clicked()
 }
 void MainWindow::on_helpButton_clicked()
 {
-    // Логика кнопки помощи
+    QMessageBox::information(this, "Справка", "Правила игры 'Быки и коровы':\n\n"
+                                              "1. Компьютер загадывает 4-значное число.\n"
+                                              "2. Вы должны угадать это число за ограниченное количество попыток.\n"
+                                              "3. Введите 4 разные цифры и получите количество 'быков' и 'коров'.\n"
+                                              "4. 'Бык' - цифра на правильной позиции, 'Корова' - цифра есть, но на другой позиции.");
 }
 
 void MainWindow::on_guessInput1_textChanged(const QString &text)
