@@ -1288,14 +1288,14 @@ BullsAndCows_autogen/timestamp: \
 	/Users/nikzan/Qt/6.8.1/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets-relwithdebinfo.cmake \
 	/Users/nikzan/Qt/6.8.1/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets.cmake \
 	/Users/nikzan/Qt/6.8.1/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsVersionlessTargets.cmake \
-	/Users/nikzan/QtProjects/BullsAndCows/BullsAndCowsGame.cpp \
-	/Users/nikzan/QtProjects/BullsAndCows/BullsAndCowsGame.h \
 	/Users/nikzan/QtProjects/BullsAndCows/CMakeLists.txt \
 	/Users/nikzan/QtProjects/BullsAndCows/cmake-build-debug/BullsAndCows_autogen/moc_predefs.h \
 	/Users/nikzan/QtProjects/BullsAndCows/cmake-build-debug/CMakeFiles/3.30.5/CMakeCXXCompiler.cmake \
 	/Users/nikzan/QtProjects/BullsAndCows/cmake-build-debug/CMakeFiles/3.30.5/CMakeSystem.cmake \
-	/Users/nikzan/QtProjects/BullsAndCows/main.cpp \
-	/Users/nikzan/QtProjects/BullsAndCows/mainwindow.cpp \
-	/Users/nikzan/QtProjects/BullsAndCows/mainwindow.h \
-	/Users/nikzan/QtProjects/BullsAndCows/mainwindow.ui \
+	/Users/nikzan/QtProjects/BullsAndCows/src/BullsAndCowsGame.cpp \
+	/Users/nikzan/QtProjects/BullsAndCows/src/BullsAndCowsGame.h \
+	/Users/nikzan/QtProjects/BullsAndCows/src/main.cpp \
+	/Users/nikzan/QtProjects/BullsAndCows/src/mainwindow.cpp \
+	/Users/nikzan/QtProjects/BullsAndCows/src/mainwindow.h \
+	/Users/nikzan/QtProjects/BullsAndCows/src/mainwindow.ui \
 	/Users/nikzan/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake

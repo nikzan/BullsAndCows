@@ -356,15 +356,15 @@
 	"HEADERS" : 
 	[
 		[
-			"/Users/nikzan/QtProjects/BullsAndCows/BullsAndCowsGame.h",
+			"/Users/nikzan/QtProjects/BullsAndCows/src/BullsAndCowsGame.h",
 			"MU",
-			"EWIEGA46WW/moc_BullsAndCowsGame.cpp",
+			"UVLADIE3JM/moc_BullsAndCowsGame.cpp",
 			null
 		],
 		[
-			"/Users/nikzan/QtProjects/BullsAndCows/mainwindow.h",
+			"/Users/nikzan/QtProjects/BullsAndCows/src/mainwindow.h",
 			"MU",
-			"EWIEGA46WW/moc_mainwindow.cpp",
+			"UVLADIE3JM/moc_mainwindow.cpp",
 			null
 		]
 	],
@@ -428,12 +428,16 @@
 	"SOURCES" : 
 	[
 		[
-			"/Users/nikzan/QtProjects/BullsAndCows/BullsAndCowsGame.cpp",
+			"/Users/nikzan/QtProjects/BullsAndCows/src/BullsAndCowsGame.cpp",
 			"MU",
 			null
 		],
-		[ "/Users/nikzan/QtProjects/BullsAndCows/main.cpp", "MU", null ],
-		[ "/Users/nikzan/QtProjects/BullsAndCows/mainwindow.cpp", "MU", null ]
+		[ "/Users/nikzan/QtProjects/BullsAndCows/src/main.cpp", "MU", null ],
+		[
+			"/Users/nikzan/QtProjects/BullsAndCows/src/mainwindow.cpp",
+			"MU",
+			null
+		]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],

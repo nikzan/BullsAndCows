@@ -1,4 +1,4 @@
 /Users/nikzan/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Users/nikzan/Applications/CLion.app/Contents/bin/ninja/mac/aarch64/ninja -DCMAKE_CXX_COMPILER=/Library/Developer/CommandLineTools/usr/bin/g++ -DCMAKE_PREFIX_PATH=/Users/nikzan/Qt/6.8.1/macos -G Ninja -S /Users/nikzan/QtProjects/BullsAndCows -B /Users/nikzan/QtProjects/BullsAndCows/cmake-build-debug
--- Configuring done (0.6s)
+-- Configuring done (0.5s)
 -- Generating done (0.1s)
 -- Build files have been written to: /Users/nikzan/QtProjects/BullsAndCows/cmake-build-debug

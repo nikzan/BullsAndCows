@@ -495,45 +495,45 @@
 		{
 			"backtrace" : 4,
 			"compileGroupIndex" : 0,
-			"path" : "main.cpp",
+			"path" : "src/main.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 4,
 			"compileGroupIndex" : 0,
-			"path" : "mainwindow.cpp",
+			"path" : "src/mainwindow.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 4,
-			"path" : "mainwindow.h",
+			"path" : "src/mainwindow.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 4,
-			"path" : "mainwindow.ui",
+			"path" : "src/mainwindow.ui",
 			"sourceGroupIndex" : 2
 		},
 		{
 			"backtrace" : 4,
-			"path" : "BullsAndCows_ru_RU.ts",
+			"path" : "translations/BullsAndCows_ru_RU.ts",
 			"sourceGroupIndex" : 2
 		},
 		{
 			"backtrace" : 4,
-			"path" : "BullsAndCowsGame.h",
+			"path" : "src/BullsAndCowsGame.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 4,
 			"compileGroupIndex" : 0,
-			"path" : "BullsAndCowsGame.cpp",
+			"path" : "src/BullsAndCowsGame.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "cmake-build-debug/BullsAndCows_autogen/include/ui_mainwindow.h",
+			"path" : "cmake-build-debug/BullsAndCows_autogen/include/src/ui_mainwindow.h",
 			"sourceGroupIndex" : 1
 		},
 		{
