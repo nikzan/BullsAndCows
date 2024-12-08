@@ -35,7 +35,7 @@ void MainWindow::on_startButton_clicked()
     ui->guessInput3->clear();
     ui->guessInput4->clear();
     ui->guessInput1->setFocus(); // Устанавливаем фокус на первое поле ввода
-    static int hintCount = 0;
+    int hintCount = 0;
 }
 
 void MainWindow::on_guessButton_clicked()
