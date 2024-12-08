@@ -1,0 +1,10 @@
+# ninja log v6
+2	124	1733670707985454629	/Users/nikzan/QtProjects/BullsAndCows/cmake-build-debug/CMakeFiles/cmake.verify_globs	a4946f77d08739b7
+124	639	1733670708606508656	BullsAndCows_autogen/timestamp	720a9ed1ab62aee7
+124	639	1733670708606508656	BullsAndCows_autogen/mocs_compilation.cpp	720a9ed1ab62aee7
+124	639	1733670708606508656	/Users/nikzan/QtProjects/BullsAndCows/cmake-build-debug/BullsAndCows_autogen/timestamp	720a9ed1ab62aee7
+124	639	1733670708606508656	/Users/nikzan/QtProjects/BullsAndCows/cmake-build-debug/BullsAndCows_autogen/mocs_compilation.cpp	720a9ed1ab62aee7
+642	1522	1733670708625546488	CMakeFiles/BullsAndCows.dir/BullsAndCows_autogen/mocs_compilation.cpp.o	9bf895d067f0c577
+642	1538	1733670708625808572	CMakeFiles/BullsAndCows.dir/main.cpp.o	23d10e6a9d6a2ab
+642	1539	1733670708625947073	CMakeFiles/BullsAndCows.dir/mainwindow.cpp.o	1003642a4198ea48
+1539	1720	1733670709522622944	BullsAndCows.app/Contents/MacOS/BullsAndCows	c3d5e72cd7a7b69a

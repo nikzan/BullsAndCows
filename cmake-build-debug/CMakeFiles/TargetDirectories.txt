@@ -1,0 +1,9 @@
+/Users/nikzan/QtProjects/BullsAndCows/cmake-build-debug/CMakeFiles/BullsAndCows.dir
+/Users/nikzan/QtProjects/BullsAndCows/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/nikzan/QtProjects/BullsAndCows/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/nikzan/QtProjects/BullsAndCows/cmake-build-debug/CMakeFiles/list_install_components.dir
+/Users/nikzan/QtProjects/BullsAndCows/cmake-build-debug/CMakeFiles/install.dir
+/Users/nikzan/QtProjects/BullsAndCows/cmake-build-debug/CMakeFiles/install/local.dir
+/Users/nikzan/QtProjects/BullsAndCows/cmake-build-debug/CMakeFiles/install/strip.dir
+/Users/nikzan/QtProjects/BullsAndCows/cmake-build-debug/CMakeFiles/BullsAndCows_autogen_timestamp_deps.dir
+/Users/nikzan/QtProjects/BullsAndCows/cmake-build-debug/CMakeFiles/BullsAndCows_autogen.dir

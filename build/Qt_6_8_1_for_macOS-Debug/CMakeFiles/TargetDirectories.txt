@@ -1,0 +1,9 @@
+/Users/nikzan/QtProjects/BullsAndCows/build/Qt_6_8_1_for_macOS-Debug/CMakeFiles/BullsAndCows.dir
+/Users/nikzan/QtProjects/BullsAndCows/build/Qt_6_8_1_for_macOS-Debug/CMakeFiles/edit_cache.dir
+/Users/nikzan/QtProjects/BullsAndCows/build/Qt_6_8_1_for_macOS-Debug/CMakeFiles/rebuild_cache.dir
+/Users/nikzan/QtProjects/BullsAndCows/build/Qt_6_8_1_for_macOS-Debug/CMakeFiles/list_install_components.dir
+/Users/nikzan/QtProjects/BullsAndCows/build/Qt_6_8_1_for_macOS-Debug/CMakeFiles/install.dir
+/Users/nikzan/QtProjects/BullsAndCows/build/Qt_6_8_1_for_macOS-Debug/CMakeFiles/install/local.dir
+/Users/nikzan/QtProjects/BullsAndCows/build/Qt_6_8_1_for_macOS-Debug/CMakeFiles/install/strip.dir
+/Users/nikzan/QtProjects/BullsAndCows/build/Qt_6_8_1_for_macOS-Debug/CMakeFiles/BullsAndCows_autogen_timestamp_deps.dir
+/Users/nikzan/QtProjects/BullsAndCows/build/Qt_6_8_1_for_macOS-Debug/CMakeFiles/BullsAndCows_autogen.dir
