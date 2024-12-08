@@ -12,16 +12,16 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 find_package(QT NAMES Qt6 Qt5 REQUIRED COMPONENTS Widgets LinguistTools)
 find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Widgets LinguistTools)
 
-set(TS_FILES BullsAndCows_ru_RU.ts)
+set(TS_FILES translations/BullsAndCows_ru_RU.ts)
 
 set(PROJECT_SOURCES
-        main.cpp
-        mainwindow.cpp
-        mainwindow.h
-        mainwindow.ui
+        src/main.cpp
+        src/mainwindow.cpp
+        src/mainwindow.h
+        src/mainwindow.ui
         ${TS_FILES}
-        BullsAndCowsGame.h
-        BullsAndCowsGame.cpp
+        src/BullsAndCowsGame.h
+        src/BullsAndCowsGame.cpp
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
