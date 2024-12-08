@@ -6,7 +6,7 @@
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow)
-    , game(nullptr)
+    , hintCount(0)
     , currentAttempt(0)
 {
     ui->setupUi(this);
@@ -35,7 +35,8 @@ void MainWindow::on_startButton_clicked()
     ui->guessInput3->clear();
     ui->guessInput4->clear();
     ui->guessInput1->setFocus(); // Устанавливаем фокус на первое поле ввода
-    int hintCount = 0;
+
+    hintCount = 0; // Сброс подсказок
 }
 
 void MainWindow::on_guessButton_clicked()

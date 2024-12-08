@@ -29,6 +29,7 @@ private slots:
     void on_guessInput4_textChanged(const QString &text);
 
 private:
+    int hintCount;
     Ui::MainWindow *ui;
     BullsAndCowsGame *game;
     int currentAttempt;
