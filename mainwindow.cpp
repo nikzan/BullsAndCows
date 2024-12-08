@@ -76,7 +76,26 @@ void MainWindow::on_guessButton_clicked()
 
 void MainWindow::on_hintButton_clicked()
 {
-    // Логика кнопки подсказки
+    if (!game) return;
+
+    static int hintCount = 0;
+    QString secretNumber = QString::fromStdString(game->getSecretNumber());
+    QString hint = "____";
+
+    for (int i = 0; i <= hintCount && i < 4; ++i) {
+        hint[i] = secretNumber[i];
+    }
+
+    ui->resultLabel->setText("Подсказка: " + hint);
+
+    hintCount++;
+    if (hintCount >= 4) {
+        currentAttempt = game->getMaxAttempts();
+        QMessageBox::information(this, "Проигрыш", "Игра окончена. Загаданное число было: " + secretNumber);
+        delete game;
+        game = nullptr;
+        hintCount = 0;
+    }
 }
 void MainWindow::on_helpButton_clicked()
 {
