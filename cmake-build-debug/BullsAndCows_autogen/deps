@@ -921,6 +921,7 @@ BullsAndCows_autogen/timestamp: \
 	/Users/nikzan/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Darwin-Initialize.cmake \
 	/Users/nikzan/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Darwin.cmake \
 	/Users/nikzan/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/UnixPaths.cmake \
+	/Users/nikzan/Qt/6.8.1/macos/lib/QtCore.framework/Versions/A/Headers/QString \
 	/Users/nikzan/Qt/6.8.1/macos/lib/QtCore.framework/Versions/A/Headers/q20functional.h \
 	/Users/nikzan/Qt/6.8.1/macos/lib/QtCore.framework/Versions/A/Headers/q20iterator.h \
 	/Users/nikzan/Qt/6.8.1/macos/lib/QtCore.framework/Versions/A/Headers/q20memory.h \
@@ -1287,6 +1288,8 @@ BullsAndCows_autogen/timestamp: \
 	/Users/nikzan/Qt/6.8.1/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets-relwithdebinfo.cmake \
 	/Users/nikzan/Qt/6.8.1/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets.cmake \
 	/Users/nikzan/Qt/6.8.1/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsVersionlessTargets.cmake \
+	/Users/nikzan/QtProjects/BullsAndCows/BullsAndCowsGame.cpp \
+	/Users/nikzan/QtProjects/BullsAndCows/BullsAndCowsGame.h \
 	/Users/nikzan/QtProjects/BullsAndCows/CMakeLists.txt \
 	/Users/nikzan/QtProjects/BullsAndCows/cmake-build-debug/BullsAndCows_autogen/moc_predefs.h \
 	/Users/nikzan/QtProjects/BullsAndCows/cmake-build-debug/CMakeFiles/3.30.5/CMakeCXXCompiler.cmake \

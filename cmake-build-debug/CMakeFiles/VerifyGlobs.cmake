@@ -41,9 +41,12 @@ endif()
 # _directory_contents at /Users/nikzan/Qt/6.8.1/macos/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/Users/nikzan/QtProjects/BullsAndCows/*.cpp")
 set(OLD_GLOB
+  "/Users/nikzan/QtProjects/BullsAndCows/BullsAndCowsGame.cpp"
   "/Users/nikzan/QtProjects/BullsAndCows/build/Qt_6_8_1_for_macOS-Debug/BullsAndCows_autogen/EWIEGA46WW/moc_mainwindow.cpp"
   "/Users/nikzan/QtProjects/BullsAndCows/build/Qt_6_8_1_for_macOS-Debug/BullsAndCows_autogen/mocs_compilation.cpp"
   "/Users/nikzan/QtProjects/BullsAndCows/build/Qt_6_8_1_for_macOS-Debug/CMakeFiles/3.29.3/CompilerIdCXX/CMakeCXXCompilerId.cpp"
+  "/Users/nikzan/QtProjects/BullsAndCows/cmake-build-debug/BullsAndCows_autogen/EWIEGA46WW/moc_mainwindow.cpp"
+  "/Users/nikzan/QtProjects/BullsAndCows/cmake-build-debug/BullsAndCows_autogen/mocs_compilation.cpp"
   "/Users/nikzan/QtProjects/BullsAndCows/cmake-build-debug/CMakeFiles/3.30.5/CompilerIdCXX/CMakeCXXCompilerId.cpp"
   "/Users/nikzan/QtProjects/BullsAndCows/main.cpp"
   "/Users/nikzan/QtProjects/BullsAndCows/mainwindow.cpp"
@@ -65,8 +68,11 @@ endif()
 # _directory_contents at /Users/nikzan/Qt/6.8.1/macos/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/Users/nikzan/QtProjects/BullsAndCows/*.h")
 set(OLD_GLOB
+  "/Users/nikzan/QtProjects/BullsAndCows/BullsAndCowsGame.h"
   "/Users/nikzan/QtProjects/BullsAndCows/build/Qt_6_8_1_for_macOS-Debug/BullsAndCows_autogen/include/ui_mainwindow.h"
   "/Users/nikzan/QtProjects/BullsAndCows/build/Qt_6_8_1_for_macOS-Debug/BullsAndCows_autogen/moc_predefs.h"
+  "/Users/nikzan/QtProjects/BullsAndCows/cmake-build-debug/BullsAndCows_autogen/include/ui_mainwindow.h"
+  "/Users/nikzan/QtProjects/BullsAndCows/cmake-build-debug/BullsAndCows_autogen/moc_predefs.h"
   "/Users/nikzan/QtProjects/BullsAndCows/mainwindow.h"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")

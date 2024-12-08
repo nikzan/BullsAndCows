@@ -356,6 +356,12 @@
 	"HEADERS" : 
 	[
 		[
+			"/Users/nikzan/QtProjects/BullsAndCows/BullsAndCowsGame.h",
+			"MU",
+			"EWIEGA46WW/moc_BullsAndCowsGame.cpp",
+			null
+		],
+		[
 			"/Users/nikzan/QtProjects/BullsAndCows/mainwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
@@ -421,6 +427,11 @@
 	"SETTINGS_FILE" : "/Users/nikzan/QtProjects/BullsAndCows/cmake-build-debug/CMakeFiles/BullsAndCows_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[
+			"/Users/nikzan/QtProjects/BullsAndCows/BullsAndCowsGame.cpp",
+			"MU",
+			null
+		],
 		[ "/Users/nikzan/QtProjects/BullsAndCows/main.cpp", "MU", null ],
 		[ "/Users/nikzan/QtProjects/BullsAndCows/mainwindow.cpp", "MU", null ]
 	],

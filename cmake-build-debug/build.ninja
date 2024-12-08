@@ -73,6 +73,14 @@ build CMakeFiles/BullsAndCows.dir/mainwindow.cpp.o: CXX_COMPILER__BullsAndCows_u
   OBJECT_DIR = CMakeFiles/BullsAndCows.dir
   OBJECT_FILE_DIR = CMakeFiles/BullsAndCows.dir
 
+build CMakeFiles/BullsAndCows.dir/BullsAndCowsGame.cpp.o: CXX_COMPILER__BullsAndCows_unscanned_Debug /Users/nikzan/QtProjects/BullsAndCows/BullsAndCowsGame.cpp || cmake_object_order_depends_target_BullsAndCows
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/BullsAndCows.dir/BullsAndCowsGame.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/nikzan/QtProjects/BullsAndCows/cmake-build-debug/BullsAndCows_autogen/include -isystem /Users/nikzan/Qt/6.8.1/macos/lib/QtCore.framework/Headers -iframework /Users/nikzan/Qt/6.8.1/macos/lib -isystem /Users/nikzan/Qt/6.8.1/macos/mkspecs/macx-clang -isystem /Users/nikzan/Qt/6.8.1/macos/include -isystem /Users/nikzan/Qt/6.8.1/macos/lib/QtWidgets.framework/Headers -isystem /Users/nikzan/Qt/6.8.1/macos/lib/QtGui.framework/Headers
+  OBJECT_DIR = CMakeFiles/BullsAndCows.dir
+  OBJECT_FILE_DIR = CMakeFiles/BullsAndCows.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target BullsAndCows
@@ -81,7 +89,7 @@ build CMakeFiles/BullsAndCows.dir/mainwindow.cpp.o: CXX_COMPILER__BullsAndCows_u
 #############################################
 # Link the executable BullsAndCows.app/Contents/MacOS/BullsAndCows
 
-build BullsAndCows.app/Contents/MacOS/BullsAndCows: CXX_EXECUTABLE_LINKER__BullsAndCows_Debug CMakeFiles/BullsAndCows.dir/BullsAndCows_autogen/mocs_compilation.cpp.o CMakeFiles/BullsAndCows.dir/main.cpp.o CMakeFiles/BullsAndCows.dir/mainwindow.cpp.o | /Users/nikzan/Qt/6.8.1/macos/lib/QtWidgets.framework/Versions/A/QtWidgets /Users/nikzan/Qt/6.8.1/macos/lib/QtGui.framework/Versions/A/QtGui /Users/nikzan/Qt/6.8.1/macos/lib/QtCore.framework/Versions/A/QtCore || BullsAndCows_autogen BullsAndCows_autogen_timestamp_deps
+build BullsAndCows.app/Contents/MacOS/BullsAndCows: CXX_EXECUTABLE_LINKER__BullsAndCows_Debug CMakeFiles/BullsAndCows.dir/BullsAndCows_autogen/mocs_compilation.cpp.o CMakeFiles/BullsAndCows.dir/main.cpp.o CMakeFiles/BullsAndCows.dir/mainwindow.cpp.o CMakeFiles/BullsAndCows.dir/BullsAndCowsGame.cpp.o | /Users/nikzan/Qt/6.8.1/macos/lib/QtWidgets.framework/Versions/A/QtWidgets /Users/nikzan/Qt/6.8.1/macos/lib/QtGui.framework/Versions/A/QtGui /Users/nikzan/Qt/6.8.1/macos/lib/QtCore.framework/Versions/A/QtCore || BullsAndCows_autogen BullsAndCows_autogen_timestamp_deps
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
   LINK_LIBRARIES = -Wl,-rpath,/Users/nikzan/Qt/6.8.1/macos/lib  /Users/nikzan/Qt/6.8.1/macos/lib/QtWidgets.framework/Versions/A/QtWidgets  /Users/nikzan/Qt/6.8.1/macos/lib/QtGui.framework/Versions/A/QtGui  -framework OpenGL  -framework AGL  -framework AppKit  -framework ImageIO  -framework Metal  /Users/nikzan/Qt/6.8.1/macos/lib/QtCore.framework/Versions/A/QtCore  -framework IOKit  -framework DiskArbitration  -framework UniformTypeIdentifiers
   LINK_PATH = -F/Users/nikzan/Qt/6.8.1/macos/lib

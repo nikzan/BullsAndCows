@@ -6,21 +6,199 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
-    <height>600</height>
+    <width>200</width>
+    <height>150</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>Быки и Коровы</string>
   </property>
-  <widget class="QWidget" name="centralwidget"/>
+  <property name="styleSheet">
+   <string notr="true">
+    QMainWindow {
+    background-color: #f0f4f8;
+    font-family: Arial, sans-serif;
+    }
+
+    QPushButton {
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 6px;
+    font-weight: bold;
+    }
+
+    QPushButton:hover {
+    background-color: #357abd;
+    }
+
+    QLineEdit {
+    border: 2px solid #4a90e2;
+    border-radius: 6px;
+    padding: 5px;
+    font-size: 16px;
+    text-align: center;
+    width: 40px;
+    }
+
+    QLabel {
+    color: #2c3e50;
+    font-size: 14px;
+    }
+   </string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="mainLayout">
+    <property name="spacing">
+     <number>20</number>
+    </property>
+    <item>
+     <widget class="QLabel" name="gameTitle">
+      <property name="text">
+       <string>Быки и Коровы</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+        font-size: 24px;
+        font-weight: bold;
+        color: #2c3e50;
+       </string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="contentLayout">
+      <item>
+       <layout class="QVBoxLayout" name="leftLayout">
+        <item>
+         <widget class="QPushButton" name="startButton">
+          <property name="text">
+           <string>Новая игра</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="hintButton">
+          <property name="text">
+           <string>Подсказка</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="helpButton">
+          <property name="text">
+           <string>Правила</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <spacer name="verticalSpacer">
+          <property name="orientation">
+           <enum>Qt::Vertical</enum>
+          </property>
+          <property name="sizeType">
+           <enum>QSizePolicy::Expanding</enum>
+          </property>
+         </spacer>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="rightLayout">
+        <item>
+         <layout class="QHBoxLayout" name="guessLayout">
+          <item>
+           <widget class="QLineEdit" name="guessInput1">
+            <property name="maxLength">
+             <number>1</number>
+            </property>
+            <property name="placeholderText">
+             <string>1</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="guessInput2">
+            <property name="maxLength">
+             <number>1</number>
+            </property>
+            <property name="placeholderText">
+             <string>2</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="guessInput3">
+            <property name="maxLength">
+             <number>1</number>
+            </property>
+            <property name="placeholderText">
+             <string>3</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="guessInput4">
+            <property name="maxLength">
+             <number>1</number>
+            </property>
+            <property name="placeholderText">
+             <string>4</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <widget class="QPushButton" name="guessButton">
+          <property name="text">
+           <string>Проверить</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="attemptsLabel">
+          <property name="text">
+           <string>Попытки: 0</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="resultLabel">
+          <property name="text">
+           <string/>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">
+            color: #27ae60;
+            font-weight: bold;
+           </string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>800</width>
-     <height>43</height>
+     <width>600</width>
+     <height>21</height>
     </rect>
    </property>
   </widget>
